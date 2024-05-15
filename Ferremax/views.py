@@ -104,3 +104,10 @@ def resultado(request):
 
     }
     return render(request, "core/resultado.html", context)
+
+
+def pago(request):
+    context = {
+
+    }
+    return render(request, "core/pago.html", context)
